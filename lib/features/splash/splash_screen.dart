@@ -1,14 +1,36 @@
-import 'package:flutter/material.dart';
+import 'dart:async';
 
-class SplashScreen extends StatelessWidget {
+import 'package:flutter/material.dart';
+import 'package:restaurant_delivery_app/core/routing/routes.dart';
+import '../../core/utils/image_manager.dart';
+
+class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
 
   @override
+  State<SplashScreen> createState() => _SplashScreenState();
+}
+
+class _SplashScreenState extends State<SplashScreen> {
+
+  @override
+  void initState() {
+    super.initState();
+
+     Timer(const Duration(seconds: 4), () {
+      Navigator.pushReplacementNamed(context, Routes.onBoardingRoute);
+    });
+  }
+
+  @override
   Widget build(BuildContext context) {
-    return const Scaffold(
+    return Scaffold(
       body: Stack(
+        alignment: Alignment.center,
+        fit: StackFit.expand,
         children: [
-          // Image.asset(''),
+          Image.asset(ImageManager.splashBackground),
+          Image.asset(ImageManager.appLogo),
         ],
       ),
     );
