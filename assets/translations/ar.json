@@ -1,4 +1,13 @@
 {
-    "appName": "بيتزا قوطة"
+    "appName": "بيتزا قوطة",
+    "skip":"تخطي",
+    "onboardingTitlePage1":"إكتشف أكلتلك المفضلة",
+    "onboardingBodyPage1":"إكتشف   أكلتك المفضلة في أكثر من 10.000 مطعم وتوصيلها إلى باب منزلك ",
+    "onboardingTitlePage2":"Find Food You Love",
+    "onboardingBodyPage2":"Discover the best foods from over 1.000 restaurants and fast delivery to your door step",
+    "onboardingTitlePage3":"Find Food You Love",
+    "onboardingBodyPage3":"Discover the best foods from over 1.000 restaurants and fast delivery to your door step",
+    "next":"التالي",
+    "getStarted":"لنبدأ"
 
 }
