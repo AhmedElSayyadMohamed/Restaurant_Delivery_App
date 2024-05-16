@@ -1,7 +1,7 @@
 // ignore: file_names
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import '../../../../core/di.dart';
+import '../../../../core/utils/di.dart';
 import '../../cubit/on_boarding_view_model.dart';
 import '../widget/on_boarding_action_button/action_button.dart';
 import '../widget/page_indicator/page_indicator.dart';

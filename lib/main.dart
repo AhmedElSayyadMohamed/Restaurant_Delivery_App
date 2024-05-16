@@ -1,8 +1,8 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
-import 'package:restaurant_delivery_app/core/di.dart';
 import 'package:restaurant_delivery_app/core/translation/localization.dart';
 import 'app/app.dart';
+import 'core/utils/di.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();

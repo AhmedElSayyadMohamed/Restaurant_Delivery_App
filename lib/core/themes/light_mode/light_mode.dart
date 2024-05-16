@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 ThemeData get getLightMode {
-  var primaryColor = const Color.fromARGB(235, 255, 115, 0);
+  var primaryColor = const Color(0xfffc6011);
   return ThemeData(
     primaryColor: primaryColor,
     textTheme: TextTheme(
