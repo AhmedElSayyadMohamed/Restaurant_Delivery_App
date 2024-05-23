@@ -8,6 +8,14 @@
     "onboardingTitlePage3":"Find Food You Love",
     "onboardingBodyPage3":"Discover the best foods from over 1.000 restaurants and fast delivery to your door step",
     "next":"التالي",
-    "getStarted":"لنبدأ"
-
+    "getStarted":"لنبدأ",
+    "login":"التسجيل",
+    "register": "قم بإنشاء حساب",
+    "loginSubTitle": "مرحب بعودتك إلينا سجل الاًن",
+    "resetPassword":"أعد تعيين كلمة المرور",
+    "resetPasswordSubTitle":"برجاء إدخال الإيميل الإلكتروني لإستلام رابط إعادة تعيين كلمة المرور الجديدة",
+    "menu": "menu",
+    "offers": "العروض",
+    "profile": "حسابي",
+    "settings": "الإعدادات"
 }

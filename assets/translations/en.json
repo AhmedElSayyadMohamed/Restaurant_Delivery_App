@@ -1,14 +1,23 @@
 {
     "appName": "restaurant_delivery_app",
-    "skip":"Skip",
-    "onboardingTitlePage1":"Find Food You Love",
-    "onboardingBodyPage1":"Discover the best foods from over 1.000 restaurants and fast delivery to your door step",
-    "onboardingTitlePage2":"Fast Delivery",
-    "onboardingBodyPage2":"Fast food delivery to your home . office whereever you are. ",
-    "onboardingTitlePage3":"Live Tracking",
-    "onboardingBodyPage3":"Real time tracking of your food on the app once you placed in the order",
-    "next":"Next",
-    "getStarted":"Get Started"
-
-
+    "skip": "Skip",
+    "onboardingTitlePage1": "Find Food You Love",
+    "onboardingBodyPage1": "Discover the best foods from over 1.000 restaurants and fast delivery to your door step",
+    "onboardingTitlePage2": "Fast Delivery",
+    "onboardingBodyPage2": "Fast food delivery to your home . office whereever you are. ",
+    "onboardingTitlePage3": "Live Tracking",
+    "onboardingBodyPage3": "Real time tracking of your food on the app once you placed in the order",
+    "next": "Next",
+    "getStarted": "Get Started",
+    "login": "Login",
+    "register": "Create an account",
+    "loginSubTitle": "Add your details to login",
+    "resetPassword": "Rest Password",
+    "resetPasswordSubTitle": "Please enter your email to recieve a link to create a new password via email",
+    "newPassword": "New Password",
+    "newPasswordSubTitle": "Please enter your email to recieve a link to create a new password via email",
+    "menu": "menu",
+    "offers": "Offers",
+    "profile": "Profile",
+    "settings": "Settings"
 }

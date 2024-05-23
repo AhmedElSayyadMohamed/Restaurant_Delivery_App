@@ -12,11 +12,13 @@ dependencies:
   
   cupertino_icons: ^1.0.6
   dartz: ^0.10.1
+  device_preview: ^1.1.0
   dio: ^5.4.3+1
   easy_localization: ^3.0.6
   flutter:
     sdk: flutter
   flutter_bloc: ^8.1.5
+  flutter_native_splash: ^2.4.0
   get_it: ^7.7.0
   retrofit: ^4.1.0
   retrofit_generator: ^8.1.0
@@ -33,15 +35,15 @@ flutter:
   assets:
     - assets/translations/
     - assets/images/
+    - assets/icons/
   # To add custom fonts to your application, add a fonts section here,
   # in this "flutter" section. Each entry in this list should have a
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
-  # example:
-  # fonts:
-  #   - family: Schyler
-  #     fonts:
-  #       - asset: fonts/Schyler-Regular.ttf
+  fonts:
+    - family: IconBroken
+      fonts:
+        - asset: assets/fonts/icons.ttf
   #       - asset: fonts/Schyler-Italic.ttf
   #         style: italic
   #   - family: Trajan Pro
