@@ -7,10 +7,10 @@ import '../core/routing/routes.dart';
 import '../core/utils/string_managers.dart';
 
 class RestaurantDeliveryApp extends StatelessWidget {
-  
-  static const RestaurantDeliveryApp _singleton = RestaurantDeliveryApp._internal();
+  static const RestaurantDeliveryApp _singleton =
+      RestaurantDeliveryApp._internal();
   const RestaurantDeliveryApp._internal();
-  factory RestaurantDeliveryApp()=>_singleton;
+  factory RestaurantDeliveryApp() => _singleton;
 
   @override
   Widget build(BuildContext context) {
@@ -21,7 +21,8 @@ class RestaurantDeliveryApp extends StatelessWidget {
       builder: DevicePreview.appBuilder,
       localizationsDelegates: context.localizationDelegates,
       supportedLocales: context.supportedLocales,
-      theme: Theme.of(context).getThemeMode(themeMode: Themes.light,context: context),
+      theme: Theme.of(context)
+          .getThemeMode(themeMode: Themes.light, context: context),
       onGenerateRoute: RouteGenerator.getRoute,
       initialRoute: Routes.splash,
     );

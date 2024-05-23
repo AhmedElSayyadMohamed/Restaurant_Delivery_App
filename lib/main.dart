@@ -20,7 +20,7 @@ void main() async {
         path: Localization().getTranslationPath,
         fallbackLocale: Localization().getCurrentLanguage(locale),
         child: RestaurantDeliveryApp(),
-      ), 
+      ),
     ),
   );
 }
